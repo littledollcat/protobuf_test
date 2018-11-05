@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='tutorial',
   syntax='proto2',
   serialized_options=None,
-  serialized_pb=_b('\n\x13\x61\x64vantech_afs.proto\x12\x08tutorial\">\n\nDataFromDF\x12\x0c\n\x04\x64\x61ta\x18\x01 \x02(\t\x12\x13\n\x0b\x63olumnsName\x18\x02 \x03(\t\x12\r\n\x05\x64type\x18\x03 \x02(\t\"\x82\x01\n\x0cS3Credential\x12\x11\n\taccessKey\x18\x01 \x02(\t\x12\x17\n\x0fsecretAccessKey\x18\x02 \x02(\t\x12\x10\n\x08\x65ndPoint\x18\x03 \x02(\t\x12\x0e\n\x06\x62ucket\x18\x04 \x02(\t\x12\x12\n\nblobPrefix\x18\x05 \x01(\t\x12\x10\n\x08\x62lobList\x18\x06 \x01(\t\"r\n\x10\x41zureBlobStorage\x12\x13\n\x0b\x61\x63\x63ountName\x18\x01 \x02(\t\x12\x12\n\naccountKey\x18\x02 \x02(\t\x12\x11\n\tcontainer\x18\x03 \x02(\t\x12\x10\n\x08\x62lobType\x18\x04 \x02(\t\x12\x10\n\x08\x62lobList\x18\x05 \x03(\t')
+  serialized_pb=_b('\n\x13\x61\x64vantech_afs.proto\x12\x08tutorial\">\n\nDataFromDF\x12\x0c\n\x04\x64\x61ta\x18\x01 \x02(\t\x12\x13\n\x0b\x63olumnsName\x18\x02 \x03(\t\x12\r\n\x05\x64type\x18\x03 \x02(\t\"\x82\x01\n\x0cS3Credential\x12\x11\n\taccessKey\x18\x01 \x02(\t\x12\x17\n\x0fsecretAccessKey\x18\x02 \x02(\t\x12\x10\n\x08\x65ndPoint\x18\x03 \x02(\t\x12\x0e\n\x06\x62ucket\x18\x04 \x02(\t\x12\x12\n\nblobPrefix\x18\x05 \x01(\t\x12\x10\n\x08\x62lobList\x18\x06 \x03(\t\"r\n\x10\x41zureBlobStorage\x12\x13\n\x0b\x61\x63\x63ountName\x18\x01 \x02(\t\x12\x12\n\naccountKey\x18\x02 \x02(\t\x12\x11\n\tcontainer\x18\x03 \x02(\t\x12\x10\n\x08\x62lobType\x18\x04 \x02(\t\x12\x10\n\x08\x62lobList\x18\x05 \x03(\t')
 )
 
 
@@ -114,8 +114,8 @@ _S3CREDENTIAL = _descriptor.Descriptor(
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
       name='blobList', full_name='tutorial.S3Credential.blobList', index=5,
-      number=6, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
+      number=6, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
